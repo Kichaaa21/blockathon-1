@@ -1,0 +1,40 @@
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #e9efcf;
+    border-radius: 10px;
+    height: 240px;
+}
+
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.loginBtn{
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(123, 119, 5);
+    color: rgb(254, 251, 251);
+    border: none;
+}
+
+.loginBtn:hover{
+    background-color: #131313;
+    color: white;
+}
+
+.loginInt{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.loginTitle{
+    font-size: 20px;
+}

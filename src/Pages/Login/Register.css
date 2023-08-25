@@ -1,0 +1,39 @@
+.regform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #e9efcf;
+    border-radius: 10px;
+}
+
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.regBtn{
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5%;
+    background-color: rgb(123, 119, 5);
+    color: rgb(254, 251, 251);
+    border: none;
+}
+
+.regBtn:hover{
+    background-color: #131313;
+    color: white;
+}
+
+
+.regInt{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.regTitle{
+    font-size: 20px;
+}
